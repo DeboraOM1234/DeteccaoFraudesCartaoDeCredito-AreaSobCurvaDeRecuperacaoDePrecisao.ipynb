@@ -7,3 +7,5 @@
 ###### Ele **contém apenas variáveis ​​de entrada numéricas que são o resultado de uma transformação PCA**. Características V1, V2, … V28 são os principais componentes obtidos com PCA, as únicas características que não foram transformadas com PCA são 'Tempo' e 'Valor'. 
 ###### O recurso '**Tempo**' contém os segundos decorridos entre cada transação e a primeira transação no conjunto de dados. O recurso '**Valor**' é o Valor da transação, esse recurso pode ser usado para aprendizado sensível ao custo dependente de exemplo. O recurso '**Class' é a variável de resposta** e assume valor 1 em caso de fraude e 0 caso contrário.
 ###### Dada a razão de desequilíbrio de classe, utilizou-se ***a Área sob a Curva de Recuperação de Precisão (AUPRC) para medir a precisão***. A precisão da matriz de confusão não é significativa para a classificação desequilibrada.
+
+## A máquina preditiva final obteve 90% de precisão.
